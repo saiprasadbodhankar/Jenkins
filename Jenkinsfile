@@ -32,6 +32,7 @@ pipeline {
     post {
         success {
             echo 'GitHub integration successful!'
+            echo 'Building application'
         }
 
         failure {
